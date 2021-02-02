@@ -27,10 +27,5 @@
         "psr-4": {
             "Nhinstein\\Blast\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Nexmo\\Laravel\\Tests\\": "tests/"
-        }
     }
 }
