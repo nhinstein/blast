@@ -11,6 +11,7 @@
         "email": "nhinstein@gmail.com"
     },
     "require": {
+        "php": ">=7.0.0",
         "guzzlehttp/guzzle": "^7.2"
     },
     "extra": {
