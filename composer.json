@@ -1,12 +1,15 @@
 {
     "name": "nhinstein/blast",
-    "description": "Channel for Blast",
+    "description": "Blast Channel",
+    "type": "metapackage",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sri Wahyuni",
             "email": "nhinstein@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "support": {
         "email": "nhinstein@gmail.com"
     },
@@ -28,6 +31,5 @@
         "psr-4": {
             "Nhinstein\\Blast\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
