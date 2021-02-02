@@ -1,0 +1,36 @@
+{
+    "name": "nhinstein/blast",
+    "description": "Channel for Blast",
+    "authors": [
+        {
+            "name": "Sri Wahyuni",
+            "email": "nhinstein@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "nhinstein@gmail.com"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nhinstein\\Blast\\BlastServiceProvider"
+            ],
+            "aliases": {
+                "Blast": "Nhinstein\\Blast\\Facade\\Blast"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Nhinstein\\Blast\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nexmo\\Laravel\\Tests\\": "tests/"
+        }
+    }
+}
