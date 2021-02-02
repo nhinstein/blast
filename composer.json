@@ -19,7 +19,7 @@
                 "Nhinstein\\Blast\\BlastServiceProvider"
             ],
             "aliases": {
-                "Blast": "Nhinstein\\Blast\\Facade\\Blast"
+                "Blast": "Nhinstein\\Blast\\Blast"
             }
         }
     },
